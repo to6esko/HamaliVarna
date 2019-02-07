@@ -1,6 +1,7 @@
 html,body {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
       "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue","Bahnschrift SemiBold Condensed", "Arial", "Helvetica",
       sans-serif;
@@ -8,7 +9,7 @@ html,body {
     -moz-osx-font-smoothing: grayscale;
     font-weight: 20px;
   }
-  *, :after, :before {
+  *, *::after, *::before {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
