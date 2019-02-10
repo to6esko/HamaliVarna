@@ -58,7 +58,7 @@ html,body {
      position: absolute;
      font-family: "Times New Roman",sans-serif;
      font-style: initial;
-     font-size:3em;
+     font-size:3.5em;
      font-weight:bold;
      color:white;
      margin-top: 4%;
@@ -81,7 +81,7 @@ html,body {
     height: 135px;
     width: 135px;
     margin-top: 3%;
-    padding-left:15%;
+    padding-left:10%;
 }
 
 .logo{
@@ -110,7 +110,7 @@ html,body {
       font-size: 1.7em;
       line-height: 0;
       border: 1px solid black;
-      background-color: white;
+      background-color: #fcfcbd;
       border-radius: 50px;
       font-weight: bold;
       word-wrap: break-word;
@@ -225,6 +225,12 @@ a:hover{
   padding-bottom: 80px;
   font-size: 0.6em;
 }
+.linkTransport{
+  color: #6d6d6d;
+}
+.linkHamali{
+  color: #6d6d6d;
+}
 .centerImgHome{
   display: block;
   margin-left: auto;
@@ -295,8 +301,8 @@ a:hover{
 
 .faviconsRight{
   display: inline-block;
-  position: relative;
-  float: right;
+  position: absolute;
+  right:0;
   margin-top:-165px;
   margin-right: 20%;
 }
@@ -340,11 +346,7 @@ a:hover{
     right: 0px;
     bottom: 0px;
 }
-.textContainer{
-  position: relative;
-  text-align: center;
-  color: black;
-}
+
 .textCenteredAboutUs {
   position: absolute;
   top: 190px;
@@ -382,10 +384,10 @@ a:hover{
   
 }
 .textProportyAboutUs > p {
-  color: #7c0600
+  color: #7c0600;
 }
 .textProportyAboutUs > p > a {
-  color: #7c0600
+  color: #7c0600;
 }
 .textProportyAboutUs > p > a :hover{
   color:  #008CBA;
@@ -426,4 +428,46 @@ a:hover{
   word-break: normal;
   white-space: normal;
   list-style-type: square;
+}
+.backgrounTransportSection{
+  height: auto;
+  width: 100%;
+  top: 435px;
+  display: block;
+  position: relative;
+  background-color:#c7c7c9;
+  background-attachment:fixed;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+.textProportyТрansport{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -4%;
+  width: 50%;        
+  position: relative; 
+  text-align: center;
+  font-size: 2em;
+  letter-spacing: normal;
+}
+.imgPhoneTransport{
+  margin-top: 0;
+}
+.textContainer{
+  font-size: 2.5em;
+  letter-spacing: -5px;
+}
+
+.kamionTransport{
+  position: relative;
+  top: 5px;
+  width: 100%;
+  overflow: hidden;
+  pointer-events: auto;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
 }
