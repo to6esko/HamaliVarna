@@ -4,7 +4,7 @@ html,body {
     box-sizing: border-box;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
       "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue","Bahnschrift SemiBold Condensed", "Arial", "Helvetica",
-      sans-serif;
+      serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     font-weight: 20px;
@@ -37,7 +37,6 @@ html,body {
     z-index: 2;
     }
   .homeBackground{
-    height: 100%;
     position: relative;
     background-color: #152133;
     background-attachment:fixed;
@@ -56,7 +55,7 @@ html,body {
   }
   .title {
      position: absolute;
-     font-family: "Times New Roman",sans-serif;
+     font-family: "Times New Roman",serif;
      font-style: initial;
      font-size:3.5em;
      font-weight:bold;
@@ -101,7 +100,7 @@ html,body {
 }
 .tel{
       position: fixed;
-      font-family: "Times New Roman",sans-serif;
+      font-family: "Times New Roman",serif;
       width: 250px;
       font-style: italic;
       margin-left: 80%;
@@ -129,6 +128,7 @@ html,body {
   position: absolute;
   margin-left: 6%;
   margin-right: auto;
+  font-family: serif;
   z-index: 2;
 }
 .navbar{
@@ -176,7 +176,7 @@ a{
   overflow: hidden;
   text-overflow: clip;
   font-size: 1em;
-  color:white;
+  color:#000;
 }
 a:hover{
   color:  #008CBA;
@@ -185,9 +185,8 @@ a:hover{
 
 
 .article{
-  height: auto;
-  width: 100%;
   position: relative;
+  font-family: serif;
 }
 .textProporty{  
   display: block;
@@ -218,7 +217,7 @@ a:hover{
   font-size: 0.9em;
 }
 .pTextProporty4{
-  font-family: 'Cabin', sans-serif;
+  font-family: 'Cabin', serif;
   font-style: italic;
   color:white;
   padding-top: 10px;
@@ -243,18 +242,16 @@ a:hover{
   object-fit: cover;
 }
 .pTextProporty5{
-  font-family: 'Cabin', sans-serif;
+  font-family: 'Cabin', serif;
   font-style: inherit;
   color:white;
   padding: 7px;
-  letter-spacing: -1px;
   font-size: 0.6em;
 }
 
 .footer{
-  height: auto;
   width: 100%;
-  position: absolute;
+  position: relative;
   z-index: 3;
 }
 
@@ -280,21 +277,20 @@ a:hover{
   padding-bottom: 3%;
 }
 .footerContacts{
-  font-family: "Times New Roman",sans-serif;
-  font-style: italic;
+  font-family: "Times New Roman",serif;
   margin-left: auto;
   margin-right: auto;
   width:35%;
   padding-top: 3%;
   font-size: 1.4em;
-  font-weight: bold;
   line-height: 10px;
   letter-spacing: normal;
+  color: #000;
 }
 .adress{
-  color:white;
+  color:#000;
   font-style: inherit;
-  font-family: 'Cabin', sans-serif;
+  font-family: 'Cabin', serif;
   font-weight: normal;
   letter-spacing: 1px;
 }
@@ -322,9 +318,7 @@ a:hover{
 }
 .kamionBackground1{
     position: relative;
-    height: auto;
-    width: 100%;;
-    z-index: 1;
+    width: 100%;
 }
 .kamionBackground2{
   position: absolute;
@@ -355,10 +349,9 @@ a:hover{
   font-size: 1.8em;
   font-weight: 500;
   letter-spacing: -2px;
-  font-family: Arial,Helvetica,sans-serif;
+  font-family: Arial,Helvetica,serif;
 }
 .backgrounAboutUsSection{
-  height: auto;
   width: 100%;
   top: 510px;
   display: block;
@@ -405,8 +398,8 @@ a:hover{
   float: left;
   width: 33%;
   padding: 30px;
-  height: auto;
   font-size: 1.2em;
+  font-family: serif;
 }
 .row:after {
   content: "";
@@ -430,7 +423,6 @@ a:hover{
   list-style-type: square;
 }
 .backgrounTransportSection{
-  height: auto;
   width: 100%;
   top: 435px;
   display: block;
@@ -491,8 +483,9 @@ a:hover{
   transform: translate(-50%, -50%);
   font-size: 1.8em;
   font-weight: 500;
-  letter-spacing: -2px;
-  font-family: Arial,Helvetica,sans-serif;
+  letter-spacing: 1px;
+  line-height: 40px;
+  font-family:serif;
 }
 .hamaliKolichka{
   position: absolute;
@@ -503,32 +496,94 @@ a:hover{
 .hamaliText{
  width: 85%;
  color: #F59A28;
- letter-spacing: 1px;
 }
 .divan{
   position: absolute;
-  right: -15%;
-  top:-30px;
+  right: -30%;
+  top: 0px;
 }
 .textCenteredDivan{
   position: absolute;
   top: 150px;
   left: 50%;
-  color:black;
-  transform: translate(-50%, -50%);
-  font-size: 1.8em;
-  font-weight: 500;
-  letter-spacing: -2px;
-  font-family: Arial,Helvetica,sans-serif;
-}
-.hamaliDivan{
-  width: 85%;
+  width: 50%;
  color: black;
- letter-spacing: 1px;
+  transform: translate(-50%, -50%);
+  font-size: 2.5em;
+  font-weight: 500;
+  font-family: serif;
 }
 .hamaliFooter{
   height: auto;
   width: 100%;
   position: absolute;
-  bottom: -350px;
+  bottom: -60%;
+}
+
+.articlePackaging{
+  height: -webkit-fill-available;
+  width: 100%;
+  font-family: serif;
+  position: relative;
+  display: block;
+  background-color:#4c3f3f;
+  background-attachment:fixed;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.textPackagingH2{
+  width:80%;
+  text-align: center;
+  margin: 50px;
+}
+.textPackaging{
+  position: absolute;
+  width: 60%;
+  top: 420px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 2em;
+  font-weight: 500;
+  font-family: serif;
+  color:#F8CA90;
+}
+.box1{
+  position: absolute;
+  left: -5%;
+  top: 30px;
+}
+.box2{
+  position: absolute;
+  right: 0;
+  top: 30px;
+}
+.boxTickso{
+  display: inline-block;
+  margin-top: 15%;
+}
+.box3{
+  position: absolute;
+  bottom: 20px;
+  left: 10px;
+}
+.tickso{
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 18px;
+}
+.box4{
+  position: absolute;
+  bottom: 20px;
+  right: 10px;
+}
+
+.textPackagingBottomH2{
+  position: absolute;
+  left: 50%;
+  width: 100%;
+  transform: translate(-50%, -50%);
 }
