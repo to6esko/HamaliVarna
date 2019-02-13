@@ -33,21 +33,17 @@ html,body {
   .header{
     width: 100%;
     height: auto;
-    position: relative;
+    position: absolute;
     z-index: 2;
     }
   .homeBackground{
-    position: relative;
+    width: 100%;
+    height: 100%;
     background-color: #152133;
-    background-attachment:fixed;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    background-size: auto;
   }
   .homeContent{
-    display: -webkit-flex; /* Safari */
-    -webkit-flex-direction: row; /* Safari 6.1+ */
-    display: flex;
+    display: block;
     flex-direction: row;
     width: 100%;
     height:250px;
@@ -60,8 +56,8 @@ html,body {
      font-size:3.5em;
      font-weight:bold;
      color:white;
-     margin-top: 4%;
-     margin-left: 10% 
+     margin-top: 2%;
+     margin-left: 20% 
          
   }
   .moto {
@@ -77,22 +73,19 @@ html,body {
   .logoContent{
     object-position: 50% 50%;
     object-fit: cover;
-    height: 135px;
     width: 135px;
-    margin-top: 3%;
     padding-left:10%;
+    padding-top: 2%;
 }
 
 .logo{
     position: absolute;   
     width: 100px;
     height: 95px;
-    background-size: contain;
-    background-repeat: no-repeat;
+    background-size: auto;
     border-width:thick;
     border-style:double;
     border-color:white;
-    background-position: center;
 }
 .telNav{
   display: -webkit-flex;
@@ -125,20 +118,19 @@ html,body {
 }
 
 .centerNavBar{
-  position: absolute;
+  position: relative;
   margin-left: 6%;
+  bottom: 0;
   margin-right: auto;
   font-family: serif;
   z-index: 2;
 }
 .navbar{
-  position: relative;
   margin: auto;
   padding: 0;
-  margin-top: -4%;
+  padding-top: 195px;
 }
 .navbar li{
-  display: inline-block;
   white-space: nowrap;
   margin-left: 15px;
   box-sizing: border-box;
@@ -146,7 +138,6 @@ html,body {
 }
 
 .navbar a{
-  display: inline-block;
   padding: 0.5em 0.75em;
   color:black;
   background-color:#fcfcbd;
@@ -189,12 +180,10 @@ a:hover{
   font-family: serif;
 }
 .textProporty{  
-  display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 100px;
+  padding-top: 3%;
   width: 50%;        
-  position: relative; 
   text-align: center;
   font-size: 3em;
   line-height: 0;
@@ -252,6 +241,10 @@ a:hover{
 .footer{
   width: 100%;
   position: relative;
+  display: block;
+  background-color:#5b71a7;
+  background-size: auto;
+  padding-bottom: 3%;
   z-index: 3;
 }
 
@@ -268,14 +261,6 @@ a:hover{
   padding: 0.2em 0.5em;
 }
 
-.footerContent{
-  display: block;
-  background-color:#5b71a7;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  padding-bottom: 3%;
-}
 .footerContacts{
   font-family: "Times New Roman",serif;
   margin-left: auto;
@@ -299,7 +284,7 @@ a:hover{
   display: inline-block;
   position: absolute;
   right:0;
-  margin-top:-165px;
+  margin-top:-125px;
   margin-right: 20%;
 }
 
@@ -325,10 +310,7 @@ a:hover{
   width: 100%;
   min-width: 980px;
     background-color:#9c9c9e;
-    background-attachment:fixed;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    background-size: auto;
 }
 .kamionAboutUs {
   position: absolute;
@@ -357,10 +339,7 @@ a:hover{
   display: block;
   position: relative;
   background-color:#c7c7c9;
-  background-attachment:fixed;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  background-size: auto;
   z-index: 1;
 }
 .textProportyAboutUs{
@@ -424,14 +403,11 @@ a:hover{
 }
 .backgrounTransportSection{
   width: 100%;
-  top: 435px;
+  top: 590px;
   display: block;
   position: relative;
   background-color:#c7c7c9;
-  background-attachment:fixed;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  background-size: auto;
   z-index: 1;
 }
 .textProportyТрansport{
@@ -439,6 +415,7 @@ a:hover{
   margin-left: auto;
   margin-right: auto;
   margin-top: -4%;
+  padding-top: 2%;
   width: 50%;        
   position: relative; 
   text-align: center;
@@ -470,10 +447,7 @@ a:hover{
   position: relative;
   display: block;
   background-color:#4c3f3f;
-  background-attachment:fixed;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  background-size: auto;
   
 }
 .textCenteredKolichka{
@@ -521,16 +495,14 @@ a:hover{
 }
 
 .articlePackaging{
-  height: -webkit-fill-available;
+  height: 120vh;
   width: 100%;
   font-family: serif;
   position: relative;
   display: block;
+  padding-top: 30%;
   background-color:#4c3f3f;
-  background-attachment:fixed;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  background-size: auto;
 }
 .textPackagingH2{
   width:80%;
@@ -539,9 +511,9 @@ a:hover{
 }
 .textPackaging{
   position: absolute;
-  width: 60%;
-  top: 420px;
+  width: 55%;
   left: 50%;
+  top:40%;
   transform: translate(-50%, -50%);
   text-align: center;
   font-size: 2em;
@@ -551,13 +523,13 @@ a:hover{
 }
 .box1{
   position: absolute;
-  left: -5%;
-  top: 30px;
+  left: -10%;
+  top: 60px;
 }
 .box2{
   position: absolute;
   right: 0;
-  top: 30px;
+  top: 60px;
 }
 .boxTickso{
   display: inline-block;
@@ -566,7 +538,7 @@ a:hover{
 .box3{
   position: absolute;
   bottom: 20px;
-  left: 10px;
+  left: -50px;
 }
 .tickso{
   position: absolute;
@@ -578,7 +550,7 @@ a:hover{
 .box4{
   position: absolute;
   bottom: 20px;
-  right: 10px;
+  right: -50px;
 }
 
 .textPackagingBottomH2{
@@ -586,4 +558,48 @@ a:hover{
   left: 50%;
   width: 100%;
   transform: translate(-50%, -50%);
+}
+
+.articleAssemble{
+  height: 150vh;
+  width: 100%;
+  font-family: serif;
+  position: relative;
+  display: block;
+  background-color:#4c3f3f;
+  background-size: auto;
+}
+.assembleContent{
+  position: absolute;
+  width: 50%;
+  left: 50%;
+  top:50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 1.8em;
+  font-family: serif;
+  color:#F8CA90;
+}
+.textAssemble{
+  text-align: left;
+  margin-left: 80px;
+  font-family: serif;
+}
+.textAssemble > li{
+  display: list-item;
+  line-height: 50px;
+  word-break: normal;
+  white-space: normal;
+  list-style-type: square;
+}
+
+.textAssembleBottom{
+  text-align: left;
+  margin-bottom: -50px;
+}
+.textAssembleBottom > li{
+  display: list-item;
+  word-break: normal;
+  white-space: normal;
+  list-style-type: square;
 }
