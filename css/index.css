@@ -33,7 +33,7 @@ html,body {
   .header{
     width: 100%;
     height: auto;
-    position: absolute;
+    position: relative;
     z-index: 2;
     }
   .homeBackground{
@@ -126,9 +126,10 @@ html,body {
   z-index: 2;
 }
 .navbar{
+  position: absolute;
   margin: auto;
   padding: 0;
-  padding-top: 195px;
+  top: -45px;
 }
 .navbar li{
   white-space: nowrap;
@@ -178,6 +179,11 @@ a:hover{
 .article{
   position: relative;
   font-family: serif;
+}
+.articleMovingServices{
+  position: relative;
+  font-family: serif;
+  top: 378px;
 }
 .textProporty{  
   margin-left: auto;
@@ -240,7 +246,7 @@ a:hover{
 
 .footer{
   width: 100%;
-  position: relative;
+  position: absolute;
   display: block;
   background-color:#5b71a7;
   background-size: auto;
@@ -443,8 +449,8 @@ a:hover{
 
 .section{
   width: 100%;
-  height: 500px;
-  position: relative;
+  height: 75vh;
+  position: absolute;
   display: block;
   background-color:#4c3f3f;
   background-size: auto;
@@ -452,7 +458,7 @@ a:hover{
 }
 .textCenteredKolichka{
   position: absolute;
-  top: 250px;
+  top: 65%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 1.8em;
@@ -478,7 +484,7 @@ a:hover{
 }
 .textCenteredDivan{
   position: absolute;
-  top: 150px;
+  top: 280px;
   left: 50%;
   width: 50%;
  color: black;
@@ -491,18 +497,18 @@ a:hover{
   height: auto;
   width: 100%;
   position: absolute;
-  bottom: -60%;
+  top:170%;
 }
-
-.articlePackaging{
-  height: 120vh;
+.packagingBackground{
   width: 100%;
-  font-family: serif;
-  position: relative;
-  display: block;
-  padding-top: 30%;
+  height: 100%;
   background-color:#4c3f3f;
   background-size: auto;
+}
+.articlePackaging{
+  font-family: serif;
+  display: block;
+  position: relative;
 }
 .textPackagingH2{
   width:80%;
@@ -510,10 +516,10 @@ a:hover{
   margin: 50px;
 }
 .textPackaging{
-  position: absolute;
+  position: relative;
   width: 55%;
   left: 50%;
-  top:40%;
+  margin-top: 30%;
   transform: translate(-50%, -50%);
   text-align: center;
   font-size: 2em;
@@ -522,14 +528,20 @@ a:hover{
   color:#F8CA90;
 }
 .box1{
-  position: absolute;
-  left: -10%;
-  top: 60px;
+  position: relative;
+  top: -30px;
+  float: left;
+}
+.toolAssemble{
+  position: relative;
+  float: left;
+  top: 80px;
+  left:-50px;
 }
 .box2{
-  position: absolute;
-  right: 0;
-  top: 60px;
+  position: relative;
+  float: right;
+  top: -370px;
 }
 .boxTickso{
   display: inline-block;
@@ -537,43 +549,45 @@ a:hover{
 }
 .box3{
   position: absolute;
-  bottom: 20px;
-  left: -50px;
+  left: -100px;
 }
 .tickso{
   position: absolute;
-  top: 90%;
+  top: 95%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 18px;
 }
 .box4{
   position: absolute;
-  bottom: 20px;
-  right: -50px;
+  right: -100px;
 }
 
 .textPackagingBottomH2{
   position: absolute;
   left: 50%;
   width: 100%;
+  margin-top: 100px;
   transform: translate(-50%, -50%);
 }
-
-.articleAssemble{
-  height: 150vh;
+.assembleBackground{
   width: 100%;
-  font-family: serif;
-  position: relative;
-  display: block;
+  height: 100%;
   background-color:#4c3f3f;
   background-size: auto;
 }
+.articleAssemble{
+  font-family: serif;
+  position: relative;
+  display: block;
+  
+}
 .assembleContent{
-  position: absolute;
+  position: relative;
   width: 50%;
   left: 50%;
-  top:50%;
+  margin-top:45%;
+  margin-bottom: -15%;
   transform: translate(-50%, -50%);
   text-align: center;
   font-size: 1.8em;
@@ -595,7 +609,6 @@ a:hover{
 
 .textAssembleBottom{
   text-align: left;
-  margin-bottom: -50px;
 }
 .textAssembleBottom > li{
   display: list-item;
