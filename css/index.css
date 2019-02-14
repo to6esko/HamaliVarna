@@ -21,7 +21,7 @@ html,body {
    }
   
    html body header nav article footer div span img p a ul li
-   h2{
+   h2 table thead tbody tr th td{
       zoom:1;
   }
    html body header nav article footer div span img p a ul li
@@ -256,6 +256,10 @@ a:hover{
 
 .imgPhone{
   margin-top: 180%;
+    position: relative;
+    width: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .faviconsLeft{
@@ -584,11 +588,9 @@ a:hover{
 }
 .assembleContent{
   position: relative;
-  width: 50%;
-  left: 50%;
-  margin-top:45%;
-  margin-bottom: -15%;
-  transform: translate(-50%, -50%);
+  width: 65%;
+  left: 20%;
+  margin-bottom: 15%;
   text-align: center;
   font-size: 1.8em;
   font-family: serif;
@@ -596,8 +598,9 @@ a:hover{
 }
 .textAssemble{
   text-align: left;
-  margin-left: 80px;
+  margin-left: 90px;
   font-family: serif;
+  font-size: 1.5em;
 }
 .textAssemble > li{
   display: list-item;
@@ -615,4 +618,36 @@ a:hover{
   word-break: normal;
   white-space: normal;
   list-style-type: square;
+}
+
+.priceContent{
+  position: relative;
+  width: 60%;
+  left: 20%;
+  text-align: left;
+  font-size: 1.8em;
+  font-family: serif;
+  color:#F8CA90;
+}
+.textColor{
+  color: #ff0202;
+}
+.priceText{
+  font-size: 0.7em;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  text-align: left;
+  padding-left: 10px;
+}
+.imgPhonePrice{
+  margin-top: 10%;
+    position: relative;
+    width: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
