@@ -651,3 +651,10 @@ th, td {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+.maps{
+  display: block;
+  position: relative;
+  margin-top: 300px;
+  left:20%;
+}
