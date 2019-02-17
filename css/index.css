@@ -297,7 +297,9 @@ a:hover{
   margin-top:-125px;
   margin-right: 20%;
 }
-
+.faviconsRight > li{
+  padding-left: 5px;
+}
 
 
 .imgOpacity {
@@ -533,7 +535,6 @@ a:hover{
 }
 .box1{
   position: relative;
-  top: -30px;
   float: left;
 }
 .toolAssemble{
@@ -571,7 +572,7 @@ a:hover{
   position: absolute;
   left: 50%;
   width: 100%;
-  margin-top: 100px;
+  margin-top: 50px;
   transform: translate(-50%, -50%);
 }
 .assembleBackground{
