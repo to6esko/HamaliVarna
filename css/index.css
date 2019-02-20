@@ -652,8 +652,10 @@ th, td {
     left: 50%;
     transform: translate(-50%, -50%);
 }
-
-.maps{
+.contactsBackground{
+  background-color: #c7c7c75e;
+}
+.map{
   display: block;
   position: relative;
   margin-top: 300px;
