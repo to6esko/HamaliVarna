@@ -1,0 +1,884 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+      "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue","Bahnschrift SemiBold Condensed", "Arial", "Helvetica",
+      serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-weight: 20px;
+  }
+  *, *::after, *::before {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+   }
+  
+   
+   img{
+       max-width: 100%;
+   }
+  
+   html body header nav article footer div span img p a ul li
+   h2 table thead tbody tr th td row col{
+      zoom:1;
+  }
+   html body header nav article footer div span img p a ul li
+   h2 table thead tbody tr th td row col{
+      content: "";
+      clear: both;
+      display: block;
+  }
+  .header{
+    width: 100%;
+    height: auto;
+    position: relative;
+    z-index: 2;
+    }
+  .homeBackground{
+    width: 100%;
+    height: 100%;
+    background-color: #152133;
+    background-size: auto;
+  }
+  .homeContent{
+    display: block;
+    flex-direction: row;
+    width: 100%;
+    height:250px;
+    background-color: #2e2e30;
+  }
+  .title {
+     position: absolute;
+     font-family: "Times New Roman",serif;
+     font-style: initial;
+     font-size:3.5em;
+     font-weight:bold;
+     color:white;
+     margin-top: 2%;
+     margin-left: 20% 
+         
+  }
+  .moto {
+      position: relative;
+      font-family: "Castellar";
+      font-style: italic;
+      font-size: 0.5em;
+      text-align: right;
+      margin-right: -3%;
+      color:white;
+
+  }
+  .logoContent{
+    object-position: 50% 50%;
+    object-fit: cover;
+    width: 135px;
+    padding-left:10%;
+    padding-top: 2%;
+}
+
+.logo{
+    position: absolute;   
+    width: 100px;
+    height: 95px;
+    background-size: auto;
+    border-width:thick;
+    border-style:double;
+    border-color:white;
+}
+.telNav{
+  display: -webkit-flex;
+  position: absolute;
+}
+.tel{
+      position: fixed;
+      font-family: "Times New Roman",serif;
+      width: 250px;
+      font-style: italic;
+      margin-left: 80%;
+      margin-top: -195px;
+      color:black;
+      font-size: 1.7em;
+      line-height: 0;
+      border: 1px solid black;
+      background-color: #fcfcbd;
+      border-radius: 50px;
+      font-weight: bold;
+      word-wrap: break-word;
+      text-align: center;
+      z-index: 3;
+}
+.tel span{
+  color:black;
+}
+  .tel :hover{
+  color: #008CBA;
+  cursor: pointer;
+}
+
+.centerNavBar{
+  position: relative;
+  margin-left: 6%;
+  bottom: 0;
+  margin-right: auto;
+  font-family: serif;
+  z-index: 2;
+}
+.navbar{
+  position: absolute;
+  margin: auto;
+  padding: 0;
+  top: -45px;
+}
+.navbar li{
+  white-space: nowrap;
+  margin-left: 15px;
+  box-sizing: border-box;
+  
+}
+
+.navbar a{
+  padding: 0.5em 0.75em;
+  color:black;
+  background-color:#fcfcbd;
+  border: 1px solid #000;
+  border-radius: 20px;
+  text-decoration: none;
+  overflow: hidden;
+  text-overflow: clip;
+  font-size: 1em;
+  word-wrap: break-word;
+}
+
+.navbar a:hover{
+  background-color: #ffde5f;
+  cursor: pointer;
+}
+
+li{
+  display: inline-block;
+  white-space: nowrap;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+a{
+  text-decoration: none;
+  text-decoration-line: none;
+  overflow: hidden;
+  text-overflow: clip;
+  font-size: 1em;
+  color:#000;
+}
+a:hover{
+  color:  #008CBA;
+  cursor: pointer;
+}
+
+
+.article{
+  position: relative;
+  font-family: serif;
+}
+.articleMovingServices{
+  position: relative;
+  font-family: serif;
+  top: 378px;
+}
+.textProporty{  
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 3%;
+  width: 50%;        
+  text-align: center;
+  font-size: 3em;
+  line-height: 0;
+  letter-spacing: normal;
+}
+.pTextProporty1{
+  font-style: inherit;
+  color:white; 
+}
+.pTextProporty2{
+  font-style: italic;
+  color:white; 
+}
+
+.pTextProporty3{
+  font-style: inherit;
+  color:#F8CA90;
+  letter-spacing: -3px;
+  padding-top: 5px;
+  font-size: 0.9em;
+}
+.pTextProporty4{
+  font-family: 'Cabin', serif;
+  font-style: italic;
+  color:white;
+  padding-top: 10px;
+  padding-bottom: 80px;
+  font-size: 0.6em;
+}
+.linkTransport{
+  color: #6d6d6d;
+}
+.linkHamali{
+  color: #6d6d6d;
+}
+.centerImgHome{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.imgHome{
+  width: 636px;
+  height: 385px;
+  object-fit: cover;
+}
+.pTextProporty5{
+  font-family: 'Cabin', serif;
+  font-style: inherit;
+  color:white;
+  padding: 7px;
+  font-size: 0.6em;
+}
+
+.footer{
+  width: 100%;
+  position: absolute;
+  display: block;
+  background-color:#5b71a7;
+  background-size: auto;
+  padding-bottom: 3%;
+  z-index: 3;
+}
+
+.imgPhone{
+  margin-top: 180%;
+    position: relative;
+    width: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.faviconsLeft{
+  display: inline;
+  position: absolute;
+  margin: 5% 0 0 19%;
+}
+.faviconsLeft a{
+  padding: 0.2em 0.5em;
+}
+
+.footerContacts{
+  font-family: "Times New Roman",serif;
+  margin-left: auto;
+  margin-right: auto;
+  width:35%;
+  padding-top: 3%;
+  font-size: 1.4em;
+  line-height: 10px;
+  letter-spacing: normal;
+  color: #000;
+}
+.adress{
+  color:#000;
+  font-style: inherit;
+  font-family: 'Cabin', serif;
+  font-weight: normal;
+  letter-spacing: 1px;
+}
+
+.faviconsRight{
+  display: inline-block;
+  position: absolute;
+  right:0;
+  margin-top:-125px;
+  margin-right: 20%;
+}
+.faviconsRight > li{
+  padding-left: 5px;
+}
+
+
+.imgOpacity {
+  opacity: 1;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.imgOpacity:hover {
+  opacity: 0.3;
+}
+.kamionBackground1{
+    position: relative;
+    width: 100%;
+}
+.kamionBackground2{
+  position: absolute;
+  width: 100%;
+  min-width: 980px;
+    background-color:#9c9c9e;
+    background-size: auto;
+}
+.kamionAboutUs {
+  position: absolute;
+    top: -325px;
+    width: 100%;
+    overflow: hidden;
+    pointer-events: auto;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+}
+
+.textCenteredAboutUs {
+  position: absolute;
+  top: 190px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.8em;
+  font-weight: 500;
+  letter-spacing: -2px;
+  font-family: Arial,Helvetica,serif;
+}
+.backgrounAboutUsSection{
+  width: 100%;
+  top: 510px;
+  display: block;
+  position: relative;
+  background-color:#c7c7c9;
+  background-size: auto;
+  z-index: 1;
+}
+.textProportyAboutUs{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -4%;
+  width: 50%;        
+  position: relative; 
+  text-align: center;
+  font-size: 3em;
+  line-height: 0;
+  letter-spacing: normal;
+  
+}
+.textProportyAboutUs > p {
+  color: #7c0600;
+}
+.textProportyAboutUs > p > a {
+  color: #7c0600;
+}
+.textProportyAboutUs > p > a :hover{
+  color:  #008CBA;
+  cursor: pointer;
+}
+
+.row{
+  box-sizing: border-box;
+  position: relative;
+  margin-left: 10%;
+  margin-right: 10%;
+  
+}
+.colum {
+  float: left;
+  width: 33%;
+  padding: 30px;
+  font-size: 1.2em;
+  font-family: serif;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  
+}
+.columText{
+  text-align: center;
+}
+.colum1{
+  line-height: 35px;
+  
+}
+
+.colum2 li{
+  display: list-item;
+  line-height: 35px;
+  word-break: normal;
+  white-space: normal;
+  list-style-type: square;
+}
+.backgrounTransportSection{
+  width: 100%;
+  top: 590px;
+  display: block;
+  position: relative;
+  background-color:#c7c7c9;
+  background-size: auto;
+  z-index: 1;
+}
+.textProportyТрansport{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -4%;
+  padding-top: 2%;
+  width: 50%;        
+  position: relative; 
+  text-align: center;
+  font-size: 2em;
+  letter-spacing: normal;
+}
+.imgPhoneTransport{
+  margin-top: 0;
+}
+.textContainerTransport{
+  font-size: 2.5em;
+  letter-spacing: -5px;
+}
+
+.kamionTransport{
+  position: relative;
+  top: 5px;
+  width: 100%;
+  overflow: hidden;
+  pointer-events: auto;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+}
+
+.section{
+  width: 100%;
+  height: 75vh;
+  position: absolute;
+  display: block;
+  background-color:#4c3f3f;
+  background-size: auto;
+  
+}
+.textCenteredKolichka{
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.8em;
+  font-weight: 500;
+  letter-spacing: 1px;
+  line-height: 40px;
+  font-family:serif;
+}
+.hamaliKolichka{
+  position: absolute;
+  right: -30%;
+  top:100px;
+}
+
+.hamaliText{
+ width: 85%;
+ color: #F59A28;
+}
+.divan{
+  position: absolute;
+  right: -30%;
+  top: 0px;
+}
+.textCenteredDivan{
+  position: absolute;
+  top: 280px;
+  left: 50%;
+  width: 50%;
+ color: black;
+  transform: translate(-50%, -50%);
+  font-size: 2.5em;
+  font-weight: 500;
+  font-family: serif;
+}
+.hamaliFooter{
+  height: auto;
+  width: 100%;
+  position: absolute;
+  top:170%;
+}
+.packagingBackground{
+  width: 100%;
+  height: 100%;
+  background-color:#4c3f3f;
+  background-size: auto;
+}
+.articlePackaging{
+  font-family: serif;
+  display: block;
+  position: relative;
+}
+.textPackagingH2{
+  width:80%;
+  text-align: center;
+  margin: 50px;
+}
+.textPackaging{
+  position: relative;
+  width: 55%;
+  left: 50%;
+  margin-top: 30%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 2em;
+  font-weight: 500;
+  font-family: serif;
+  color:#F8CA90;
+}
+.box1{
+  position: relative;
+  float: left;
+}
+.toolAssemble{
+  position: relative;
+  float: left;
+  top: 80px;
+  left:-50px;
+}
+.box2{
+  position: relative;
+  float: right;
+  top: -370px;
+}
+.boxTickso{
+  display: inline-block;
+  margin-top: 15%;
+}
+.box3{
+  position: absolute;
+  left: -100px;
+}
+.tickso{
+  position: absolute;
+  top: 95%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 18px;
+}
+.box4{
+  position: absolute;
+  right: -100px;
+}
+
+.textPackagingBottomH2{
+  position: absolute;
+  left: 50%;
+  width: 100%;
+  margin-top: 50px;
+  transform: translate(-50%, -50%);
+}
+.assembleBackground{
+  width: 100%;
+  height: 100%;
+  background-color:#4c3f3f;
+  background-size: auto;
+}
+.articleAssemble{
+  font-family: serif;
+  position: relative;
+  display: block;
+  
+}
+.assembleContent{
+  position: relative;
+  width: 65%;
+  left: 20%;
+  margin-bottom: 15%;
+  text-align: center;
+  font-size: 1.8em;
+  font-family: serif;
+  color:#F8CA90;
+}
+.textAssemble{
+  text-align: left;
+  margin-left: 90px;
+  font-family: serif;
+  font-size: 1.5em;
+}
+.textAssemble > li{
+  display: list-item;
+  line-height: 50px;
+  word-break: normal;
+  white-space: normal;
+  list-style-type: square;
+}
+
+.textAssembleBottom{
+  text-align: left;
+}
+.textAssembleBottom > li{
+  display: list-item;
+  word-break: normal;
+  white-space: normal;
+  list-style-type: square;
+}
+
+.priceContent{
+  position: relative;
+  width: 60%;
+  left: 20%;
+  text-align: left;
+  font-size: 1.8em;
+  font-family: serif;
+  color:#F8CA90;
+}
+.textColor{
+  color: #ff0202;
+}
+.priceText{
+  font-size: 0.7em;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  text-align: left;
+  padding-left: 10px;
+}
+.imgPhonePrice{
+  margin-top: 10%;
+    position: relative;
+    width: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.contactsBackground{
+  background-color: #c7c7c75e;
+}
+.map{
+  display: block;
+  position: relative;
+  margin-top: 300px;
+  left:25%;
+}
+
+
+/*Calendar Css*/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,700);
+@import url(https://fonts.googleapis.com/icon?family=Material+Icons);
+
+.icon {
+  font-family: 'Material Icons', serif;
+  font-style: normal;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: 'liga';
+}
+
+
+/* VARIABLES */
+
+:root {
+  --main-color: #1a8fff;
+  --text-color: #000;
+  --text-color-light: #677fac;
+  --border-color: #a8a9ab;
+  --bg-color: #f9f9f9;
+  --neutral-color: #f1e8e8;
+  --header-color: #9fddfb;
+  --selected-color: #6eaff3;;
+}
+
+
+/* GENERAL */
+
+
+.calendarHeader {
+  display: block;
+  width: 100%;
+  padding: 1.75em 0;
+  border-bottom: 1px solid var(--border-color);
+  background: var(--neutral-color);
+}
+
+.calendarHeader .calendarLogo {
+  font-size: 175%;
+  text-align: center;
+  color: var(--main-color);
+  line-height: 1;
+}
+
+.calendarHeader .calendarLogo .icon {
+  padding-right: .25em;
+}
+
+
+
+
+/* GRID */
+
+.row {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.row-middle {
+  align-items: center;
+}
+
+.col {
+  flex-grow: 1;
+  flex-basis: 0;
+  max-width: 100%;
+}
+
+.col-start {
+  justify-content: flex-start;
+  text-align: left;
+}
+
+.col-center {
+  justify-content: center;
+  text-align: center;
+}
+
+.col-end {
+  justify-content: flex-end;
+  text-align: right;
+}
+
+
+/* Calendar */
+
+.calendar {
+  display: block;
+  position: relative;
+  max-width: 18%;
+  background: var(--header-color);
+  border: 1px solid var(--border-color);
+  border-radius: 10px;
+}
+
+.calendar .calendarHeader {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 70%;
+  padding: 1.2em 0;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.calendar .calendarHeader .icon {
+  cursor: pointer;
+  transition: .15s ease-out;
+}
+
+.calendar .calendarHeader .icon:hover {
+  transform: scale(1.75);
+  transition: .25s ease-out;
+  color: var(--main-color);
+}
+
+.calendar .calendarHeader .icon:first-of-type {
+  margin-left: 1em;
+}
+
+.calendar .calendarHeader .icon:last-of-type {
+  margin-right: 1em;
+}
+
+.calendar .days {
+  font-weight: bold;
+  color: #000;
+  font-size: 60%;
+  padding: .75em 0;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.calendar .body .cell {
+  position: relative;
+  height: 1.7em;
+  border-right: 1px solid var(--border-color);
+  overflow: hidden;
+  cursor: pointer;
+  background: var(--neutral-color);
+  transition: 0.25s ease-out;
+}
+
+.calendar .body .cell:hover {
+  background: var(--bg-color);
+  transition: 0.5s ease-out;
+}
+.calendar .body .selected {
+  background-color: var(--selected-color);
+}
+/*
+.calendar .body .selected {
+  border-left: 10px solid transparent;
+  border-image: linear-gradient(45deg, #1a8fff 0%,#53cbf1 40%);
+  border-image-slice: 1;
+}
+*/
+.calendar .body .row {
+  border-bottom: 1px solid var(--border-color);
+}
+
+.calendar .body .row:last-child {
+  border-bottom: none;
+}
+
+.calendar .body .cell:last-child {
+  border-right: none;
+}
+
+.calendar .body .cell .number {
+  position: absolute;
+  font-size: 82.5%;
+  line-height: 1;
+  top: .75em;
+  right: .75em;
+  font-weight: 700;
+}
+
+.calendar .body .disabled {
+  color: var(--text-color-light);
+  pointer-events: none;
+}
+
+.calendar .body .cell .bg {
+  font-weight: 700;
+  line-height: 1;
+  color: var(--main-color);
+  opacity: 0;
+  font-size: 8em;
+  position: absolute;
+  top: -.2em;
+  right: -.05em;
+  transition: .25s ease-out;
+  letter-spacing: -.07em;
+}
+
+.calendar .body .cell:hover .bg, .calendar .body .selected .bg  {
+  opacity: 0.05;
+  transition: .5s ease-in;
+}
+
+.calendar .body .col {
+  flex-grow: 0;
+  flex-basis: calc(100%/7);
+  width: calc(100%/7);
+  border-radius:10px;
+}
