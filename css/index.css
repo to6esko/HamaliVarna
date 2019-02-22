@@ -660,7 +660,8 @@ th, td {
 .map{
   display: block;
   position: relative;
-  margin-top: 300px;
+  margin-top: 500px;
+  padding-bottom: 20px;
   text-align: center;
 }
 
@@ -895,23 +896,17 @@ th, td {
   border-radius:10px;
 }
 */
-.emailContacts{
-  display: block;
-  position: relative;
-  height: auto;
-  box-sizing: border-box;
-  max-width: 45%;
-  margin-left: 20%;
-  border: 1px solid black;
-  text-align: center;
-}
+
 
 .datePickerContacts{
   display: inline-block;
   position: relative;
-  margin-top: -135px;
+  margin-top: -440px;
   margin-right: 5%;
   float: right;
+}
+.datePickerContacts :hover{
+  cursor: pointer;
 }
 .datePickerHome{
   display: inline-block;
@@ -919,6 +914,7 @@ th, td {
   margin-right: 5%;
   float: right;
 }
+
 .datePickerTitle{
   margin-bottom: 2px;
   text-align: center;
@@ -946,4 +942,116 @@ th, td {
 }
 .react-datepicker__navigation--previous{
   border-right-color: #000 !important;
+}
+
+
+
+.emailContacts{
+  display: block;
+  position: absolute;
+  height: 100%;
+  box-sizing: border-box;
+  max-width: 35%;
+  width: 50%;
+  top: 300px;
+  margin-left: 20%;
+  max-height: 100%;
+}
+.emailContacts :hover{
+  cursor: pointer;
+}
+.formaTitle{
+  text-align: center;
+  font-size: 2em;
+  font: italic 30px/1.5em 'playfair display',serif;
+}
+.formName{
+  float: left;
+  width: 50%;
+}
+.formName .form-group .form-control{
+  max-width: 100%;
+  max-height: 100%;
+  width: 48%;
+  position: absolute;
+  left:0;
+  padding: 5px;
+  background-color: #ffedae;
+  border-radius: 0;
+  font: italic normal normal 15px/1.4em 'playfair display',serif;
+}
+.formEmail .form-group .form-control{
+  max-width: 100%;
+  max-height: 100%;
+  width: 48%;
+  position: absolute;
+  right:0;
+  padding: 5px;
+  background-color: #ffedae;
+  border-radius: 0;
+  font: italic normal normal 15px/1.4em 'playfair display',serif;
+}
+
+.formTema .form-group .form-control{
+  max-width: 100%;
+  max-height: 100%;
+  width: 48%;
+  position: absolute;
+  margin-top: 50px;
+  left:0;
+  padding: 5px;
+  background-color: #ffedae;
+  border-radius: 0;
+  font: italic normal normal 15px/1.4em 'playfair display',serif;
+}
+
+.formTel .form-group .form-control{
+  max-width: 100%;
+  max-height: 100%;
+  width: 48%;
+  position: absolute;
+  margin-top: 50px;
+  right:0;
+  padding: 5px;
+  background-color: #ffedae;
+  border-radius: 0;
+  font: italic normal normal 15px/1.4em 'playfair display',serif;
+}
+.formMessage .form-group .form-control{
+  max-width: 100%;
+  max-height: 100%;
+  width: 100%;
+  height: 100px;
+  margin-top: 100px;
+  left:0;
+  padding: 5px;
+  background-color: #ffedae;
+  border-radius: 0;
+  font: italic normal normal 15px/1.4em 'playfair display',serif;
+}
+  .buttonSubmit :nth-of-type(1){
+  max-width: 100%;
+  max-height: 100%;
+  width: 100%;
+  color:white;
+  left:0;
+  background-color: #404040;
+  border-radius: 0;
+  font: italic normal normal 25px/1.5em 'playfair display',serif;
+}
+.buttonSubmit :nth-of-type(1):hover{
+  color: #008CBA;
+  cursor: pointer;
+}
+
+
+
+.modal .fade .show{
+    display: block !important;
+    position: absolute !important;
+    max-width: 30% !important;
+    max-height: 30% !important;
+    margin-top: -50% !important;
+    margin-left: 24% !important;
+    background-color: #07bd07 !important;
 }
