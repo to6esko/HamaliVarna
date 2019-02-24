@@ -118,6 +118,7 @@ html, body {
 }
 
 .centerNavBar{
+  display: -webkit-box;
   position: relative;
   margin-left: 6%;
   bottom: 0;
@@ -260,6 +261,7 @@ a:hover{
   background-color:#5b71a7;
   background-size: auto;
   padding-bottom: 3%;
+  margin: 0;
   z-index: 3;
 }
 
@@ -559,7 +561,7 @@ a:hover{
 .box2{
   position: relative;
   float: right;
-  top: -370px;
+  margin-top: -40%;
 }
 .boxTickso{
   display: inline-block;
@@ -1135,4 +1137,27 @@ th, td {
 }
 .faviconContacts{
   padding-left: 5px;
+}
+
+
+
+
+
+/*Responsiv*/
+@media only screen and (max-width : 1632px) {
+  body{
+      font-size:0.9em;
+  }
+}
+
+@media only screen and (max-width : 1366px) {
+  body{
+      font-size:0.8em;
+  }
+}
+
+@media only screen and (max-width : 992px) {
+  body{
+      font-size:0.8em;
+  }
 }
