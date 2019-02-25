@@ -134,7 +134,7 @@ html, body {
 }
 .navbar li{
   white-space: nowrap;
-  margin-left: 15px;
+  margin-left: 0.5em;
   box-sizing: border-box;
   
 }
@@ -561,7 +561,11 @@ a:hover{
 .box2{
   position: relative;
   float: right;
-  margin-top: -40%;
+}
+.box2Asemble{
+  position: relative;
+  float: right;
+  top:80px;
 }
 .boxTickso{
   display: inline-block;
@@ -580,7 +584,7 @@ a:hover{
 }
 .box4{
   position: absolute;
-  right: -100px;
+  right: -15%;
 }
 
 .textPackagingBottomH2{
@@ -1146,13 +1150,19 @@ th, td {
 /*Responsiv*/
 @media only screen and (max-width : 1632px) {
   body{
-      font-size:0.9em;
+      font-size:1em;
+  }
+  .title{
+    font-size:3em;
+  }
+  .centerNavBar{
+    margin-left: 0;
   }
 }
 
 @media only screen and (max-width : 1366px) {
   body{
-      font-size:0.8em;
+      font-size:1.2em;
   }
 }
 
