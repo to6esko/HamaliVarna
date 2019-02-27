@@ -1165,9 +1165,15 @@ th, td {
 
 
 
+
+
+
+
+
+
 /*Responsiv*/
 
-@media only screen and (max-width : 1632px) {
+@media screen and (max-width: 1631px) {
   body{
       font-size:1em;
   }
@@ -1175,26 +1181,42 @@ th, td {
     font-size:3em;
   }
 }
-@media screen and (max-width: 1366px) {
+
+@media screen and (max-width: 1365px) {
   body{
     font-size:0.9em;
-}
+  }
+  .title{
+    width: 50%;
+    margin-left: 22%;
+  }
+  .tel{
+    margin-left: 73%;
+  }
+  .textProporty{
+    font-size: 1.5em;
+  }
+  .googleMapFooter{
+    width: 32%;
+  }
 }
 
-@media only screen and (max-width : 1024px) {
+@media only screen and (max-width: 1023px) {
   body{
     font-size:0.8em;
     overflow: auto;
   }
   .title{
-    letter-spacing: -3px;
+    width: 50%;
+    margin-left: 29%;
+    letter-spacing: -1px;
     margin-left: 22%;
   }
   .tel{
     margin-left: 75%;
   }
   .textProporty{
-    font-size: 2em;
+    font-size: 1.5em;
   }
   .googleMapFooter{
     width: 34%;
@@ -1212,48 +1234,21 @@ th, td {
   .colum2{
     line-height: 25px;
   }
+  .faviconsLeft{
+    margin-left: -2%;
+  }
   
 }
 
 @media screen and (max-width: 991px) {
-  .pTextProporty3{
-    letter-spacing: -1px;
-  }
-  .navbar{
-    width: 35%;
-    top:250px;
-  }
-  .navbar a{
-    display: none;
-  }
   .navbar .menuIcon {
     display: block;
     position: absolute;
     top: -60px;
     background: black;
   }
-}
-
-@media screen and (max-width: 991px) {
-  .navbar.responsive {
-  position: absolute;
-}
-  .navbar.responsive .menuIcon {
-    position: absolute;
-    background-color: #000;
-  }
-  .navbar.responsive a {
-    float: none;
-    display: block;
-    font-size: 1.2em;
-    text-align: left;
-    margin: 2px;
-  }
-}
-
-@media screen and (max-width: 767px){
   .title{
-    width: 50%;
+    width: 40%;
     margin-left: 29%;
     letter-spacing: -1px;
   }
@@ -1262,13 +1257,18 @@ th, td {
   }
   .navbar{
     width: 45%;
+    top:250px;
   }
   .navbar a{
+    display: none;
     padding: 2% 5%;
   }
   .textProporty{
     width: 60%;
     margin-left: 10%;
+  }
+  .pTextProporty3{
+    letter-spacing: -1px;
   }
   .pTextProporty5{
   font-size: 0.8em;
@@ -1330,5 +1330,25 @@ th, td {
 .contactsIcon{
   left:-10%;
 }
+}
+
+@media screen and (max-width: 991px) {
+  .navbar.responsive {
+  position: absolute;
+}
+  .navbar.responsive .menuIcon {
+    position: absolute;
+    background-color: #000;
+  }
+  .navbar.responsive a {
+    float: none;
+    display: block;
+    font-size: 1.2em;
+    text-align: left;
+    margin: 2px;
+  }
+}
+
+@media screen and (max-width: 767px) {
 }
 
