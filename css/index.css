@@ -532,15 +532,15 @@ a:hover{
 }
 .textPackaging{
   position: relative;
-  width: 55%;
-  left: 50%;
-  margin-top: 460px;
-  transform: translate(-50%, -50%);
-  text-align: center;
-  font-size: 2em;
-  font-weight: 500;
-  font-family: serif;
-  color:#F8CA90;
+    width: 55%;
+    left: 20%;
+    margin-bottom: 280px;
+    top: 60px;
+    text-align: center;
+    font-size: 2em;
+    font-weight: 500;
+    font-family: serif;
+    color: #F8CA90;
 }
 .box1{
   position: relative;
@@ -605,7 +605,7 @@ a:hover{
   position: relative;
   width: 65%;
   left: 20%;
-  margin-bottom: 15%;
+  margin-bottom: 150px;
   text-align: center;
   font-size: 1.8em;
   font-family: serif;
@@ -1194,11 +1194,15 @@ th, td {
     margin-left: 73%;
   }
   .textProporty{
-    font-size: 1.5em;
+    font-size: 1.4em;
   }
   .googleMapFooter{
     width: 32%;
   }
+  .pTextProporty3{
+    letter-spacing: -1px;
+  }
+  
 }
 
 @media only screen and (max-width: 1023px) {
@@ -1303,9 +1307,6 @@ th, td {
 }
 .box4{
   display: none;
-}
-.textPackaging{
-  margin-top: 535px;
 }
 .box1{
   top: 40px;
