@@ -198,7 +198,6 @@ a:hover{
   position: relative;
   text-align: center;
   font-size: 2em;
-  line-height: 0;
   letter-spacing: normal;
 }
 .pTextProporty1{
@@ -371,11 +370,11 @@ a:hover{
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 80%;        
+  width: 100%;        
   position: relative; 
   text-align: center;
+  float: left;
   font-size: 2em;
-  line-height: 0;
   letter-spacing: normal;
   
 }
@@ -504,7 +503,7 @@ a:hover{
 .divan{
   position: absolute;
   right: -30%;
-  top:150px;
+  top:190px;
 }
 .textCenteredDivan{
   position: absolute;
@@ -1393,7 +1392,7 @@ th, td {
   margin-top: 10px;
 }
 .emailContacts{
-  top:170px;
+  top:235px;
 }
 .contactsIcon{
     width: 26%;
@@ -1428,7 +1427,7 @@ th, td {
   .datePickerHome{
     float: none;
     margin-left: 30%;
-    top: -90px;
+    top: -120px;
   }
   .textProporty{
     width: 80%;
@@ -1446,9 +1445,6 @@ th, td {
     right: -10%;
   }
 
-  .textProporty{
-    padding-top: 55px;
-  }
   .backgroundAboutUsSection{
     margin-top:-180px;
   }
@@ -1458,6 +1454,9 @@ th, td {
   }
   .textProportyAboutUs{
     font-size: 1.4em;
+  }
+  .pTextProporty4AboutUs{
+    padding-top: 40px;
   }
   .datePickerAboutUs{
     display: none;
@@ -1487,9 +1486,80 @@ th, td {
   .contactsIcon{
     left:-50%;
   }
+  .emailContacts{
+    width: 75%;
+    top:170px;
+  }
   .modal{
     top:185px;
   }
 }
 @media screen and (max-width: 479px) {
+  .homeContent{
+    height: 450px;
+  }
+  .logoContent{
+    text-align: center;
+  }
+  .title{
+    text-align: center;
+    top: 155px;
+    font-size: 2.5em;
+    width: 100%;
+    margin-left: 0;
+  }
+  .tel{
+    margin-left: 45%;
+    top: 498px;
+  }
+  .navbar{
+    width: 80%;
+    top:450px;
+  }
+  .datePickerHome{
+    margin-left: 12%;
+  }
+  .textProporty{
+    font-size: 1.3em;
+  }
+  .faviconsRight{
+    width: 75%;
+    top: 0px;
+    right: 0%;
+  }
+  .imgPhone{
+    left:0;
+  }
+  .rowTransport{
+    font-size: 1em;
+  }
+  .section{
+    height: 870px;
+  }
+  .textCenteredKolichka{
+    position: relative;
+    width: 70%;
+    left:50%;
+    top:0;
+    float: left;
+    font-size: 1em;
+    line-height: 15px;
+  }
+  .hamaliKolichka{
+    right: 0;
+    top:190px;
+  }
+  .textCenteredDivan{
+    font-size: 1.5em;
+    top:430px;
+  }
+  .textPackaging{
+    margin: 0;
+  }
+  .emailContacts{
+    width: 85%;
+  }
+  .googleMapContacts{
+    width: 95%;
+  }
 }
