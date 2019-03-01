@@ -30,7 +30,9 @@ input {
     -o-user-select: text;
     user-select: text;
 }
-   
+.react-datepicker-ignore-onclickoutside [type="text"]:disabled{
+  background-color: chocolate;
+}
    img{
        max-width: 100%;
    }
@@ -359,6 +361,8 @@ a:hover{
 .kamionAboutUs2 {
   min-width: 100%;
   min-height: auto;
+  width: 980px;
+  height: 555px;
 }
 .textCenteredAboutUs {
   position: absolute;
@@ -983,6 +987,7 @@ th, td {
   z-index: 3;
 }
 
+
 .datePickerAboutUs{
   display: inline-block;
   position: relative;
@@ -1473,6 +1478,9 @@ th, td {
   .kamionTransport{
     margin-left: 0;
   }
+  .kamionAboutUs2{
+     height: 425px;
+  }
   .hamaliKolichka{
     right: -45%;
   }
@@ -1513,6 +1521,9 @@ th, td {
     top: 20px;
     right: -10%;
   }
+  .textCenteredAboutUs{
+    display: none;
+  }
 }
 @media screen and (max-width: 479px) {
   .homeContent{
@@ -1550,6 +1561,9 @@ th, td {
   .imgPhone{
     left:0;
   }
+  .kamionAboutUs2{
+    height: 320px;
+ }
   .rowTransport{
     font-size: 1em;
   }
