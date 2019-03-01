@@ -134,7 +134,7 @@ html, body {
     position: absolute;
     height: auto;
     top: 190px;
-    z-index: 2;
+    z-index: 4;
 }
 
 .navbar a{
@@ -275,13 +275,14 @@ a:hover{
 }
 
 .faviconsLeft{
-  display: inline;
+  display: inline-block;
   position: absolute;
-  margin-top: 105px;
+  left: 1%;
+  top: 93px;
   z-index: 2;
 }
-.faviconsLeft a{
-  padding: 0.2em 0.5em;
+.favicons a{
+  padding-left: 2px;
 }
 
 .footerContacts{
@@ -304,19 +305,16 @@ a:hover{
   font-weight: normal;
   letter-spacing: 1px;
 }
-
 .faviconsRight{
-  display: block;
+  display: inline-block;
   position: absolute;
-  right:0;
-  margin-top: -125px;
   right: 5%;
+  top: 93px;
+}
+.favicons{
+  width: 100%;
   z-index: 2;
 }
-.faviconsRight > li{
-  padding-left: 5px;
-}
-
 
 .imgOpacity {
   opacity: 1;
@@ -685,6 +683,7 @@ th, td {
   display: block;
   position: relative;
   text-align: center;
+  top: 30px;
   margin: 90px 5% 50px 5%;
 }
 .googleMapContacts{
@@ -965,6 +964,7 @@ th, td {
   position: relative;
   margin-right: 8%;
   float: right;
+  z-index: 3;
 }
 
 .datePickerAboutUs{
@@ -1304,8 +1304,6 @@ th, td {
     margin-left: 25%;
   }
   .faviconsRight{
-    margin-top: 105px;
-    right: 10%;
   }
   .pTextProporty4{
     font-size: 0.8em;
@@ -1396,7 +1394,7 @@ th, td {
 }
 .contactsIcon{
     width: 26%;
-    top: -550px;
+    top: -590px;
 }
 }
 
@@ -1523,7 +1521,7 @@ th, td {
     font-size: 1.3em;
   }
   .faviconsRight{
-    width: 75%;
+    width: 90%;
     top: 0px;
     right: 0%;
   }
@@ -1553,13 +1551,31 @@ th, td {
     font-size: 1.5em;
     top:430px;
   }
-  .textPackaging{
-    margin: 0;
-  }
   .emailContacts{
     width: 85%;
+    top:215px;
   }
   .googleMapContacts{
     width: 95%;
   }
+  .textPackagingH2{
+    margin:20px;
+}
+.box1{
+  top:0;
+}
+.toolAssemble{
+  float:none;
+  left:0;
+  top:-30px;
+}
+.textAssemble{
+  margin-left: 0;
+}
+.textPackagingBottomH2{
+  left: 35%;
+}
+.priceContent{
+  font-size: 1.3em;
+}
 }
