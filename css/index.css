@@ -281,6 +281,7 @@ a:hover {
   display: block;
   position: absolute;
   width: 30%;
+  margin-right: -5%;
   height: auto;
   font-size: 1.5em;
   right: 0;
@@ -469,6 +470,7 @@ a:hover {
   position: relative;
   width: 100%;
   top: -120px;
+  background-color: grey;
 }
 .kamionBackground2 {
   overflow: hidden;
@@ -490,9 +492,7 @@ a:hover {
   top: 300px;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 1.8em;
   font-weight: 500;
-  letter-spacing: -2px;
   font-family: Arial, Helvetica, serif;
   word-wrap: break-word;
 }
@@ -717,6 +717,12 @@ a:hover {
   position: absolute;
   top: 1300px;
 }
+
+.mover {
+  position: absolute;
+  right: -30%;
+  top: 0px;
+}
 .packagingBackground {
   width: 100%;
   height: 100%;
@@ -728,7 +734,7 @@ a:hover {
   display: block;
   position: relative;
 }
-.textPackagingH2 {
+.packagingTitle {
   width: 80%;
   text-align: center;
   margin: 50px;
@@ -740,11 +746,10 @@ a:hover {
   left: 20%;
   margin-bottom: 280px;
   margin-top: 60px;
-  text-align: center;
-  font-size: 2em;
+  text-indent: 50px;
+  font-size: 1.5em;
   font-weight: 500;
   font-family: serif;
-  color: #f8ca90;
   word-wrap: break-word;
 }
 .box1 {
@@ -791,9 +796,16 @@ a:hover {
   left: 50%;
   width: 100%;
   margin-top: 50px;
+  text-align: center;
   font-size: 1.5em;
   transform: translate(-50%, -50%);
   word-wrap: break-word;
+}
+.movingHomeFooter {
+  color: #c0cbde;
+  font-size: 0.8em;
+  line-height: -13px;
+  line-height: 30px;
 }
 .assembleBackground {
   width: 100%;
@@ -841,7 +853,13 @@ a:hover {
   white-space: normal;
   list-style-type: square;
 }
-
+.textPriceH2 {
+  width: 90%;
+  border: 1px solid;
+  text-align: center;
+  padding: 10px;
+  box-shadow: 7px 10px #23211c;
+}
 .priceContent {
   position: relative;
   width: 60%;
@@ -1668,7 +1686,6 @@ td {
   }
   .textCenteredAboutUs {
     top: 155px;
-    font-size: 1.3em;
   }
   .textProportyAboutUs {
     font-size: 1.4em;
